@@ -8,7 +8,7 @@
 This repository contains the code for probabilistic and differentiable morphological filters. 
 * `SoftMorph_2D.py` : 2D operations for Erosion, Dilation, Opening, Closing and Skeletonization
 * `SoftMorph_3D.py` : 3D operations for Erosion, Dilation, Opening, Closing and Skeletonization
-* `butterfly_segmentations.zip` : Corrected segmentation masks for the Butterfly dataset from 
+* `butterfly_segmentations.zip` : Corrected segmentation masks for the Butterfly dataset from the [Leeds Butterfly Dataset](https://www.josiahwang.com/dataset/leedsbutterfly)
 
 ## Usage
 ### Input image format
