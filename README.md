@@ -4,11 +4,13 @@
 * [Usage](#usage)
 * [Contact](#contact)
 
+This work is an extension of the code in: https://github.com/lisaGUZZI/Soft-morph with generalization of the method to multiple fuzzy logics
+
 ## Content
 This repository contains the code for probabilistic and differentiable morphological filters. 
 * `SoftMorph_2D.py` : 2D operations for Erosion, Dilation, Opening, Closing and Skeletonization
 * `SoftMorph_3D.py` : 3D operations for Erosion, Dilation, Opening, Closing and Skeletonization
-* `butterfly_segmentations.zip` : Corrected segmentation masks for the Butterfly dataset from the [Leeds Butterfly Dataset](https://www.josiahwang.com/dataset/leedsbutterfly)
+* `nnUNet_code` : Code to use SoftMorph with nnUNet as last morphological layers (Insert the softmorph folder and helpers.py file inside nnUNet code repository at the location *nnunetv2/utilities/* then refer to the example_usage.sh script)
 
 ## Usage
 ### Input image format
